@@ -1,5 +1,5 @@
 # WHAT-A-TIME
-Team Profile Generator
+Team Profile Generator <br>
 ![Screen Shot 2023-06-10 at 9 24 45 PM](https://github.com/magjoker/WHAT-A-TIME/assets/118233640/7f4d1e0e-b92f-4e8d-a5e9-11fa5ad7bff3)
 ## Description
 This app is a CLI or Command Line Interface. <br>
