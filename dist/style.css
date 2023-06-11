@@ -1,7 +1,15 @@
+@font-face {
+  font-family: virgil;
+  src: url(./fonts/fonty.otf);
+}
+
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: virgil;
 }
 body {
   font-size: 16px;
@@ -11,60 +19,65 @@ body {
 
   min-width: 100vw;
   min-height: 100vh;
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
+  grid-auto-columns: auto;
 
-  background-color: #002c47;
+  background-color: #546985;
 }
 
 h1 {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.card {
-  margin: 0 auto;
-  max-width: 600px;
-  padding: 4rem;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  background-color: #fff;
-  border-radius: 1em;
-  box-shadow: 8px 10px 8px #111;
-}
-
-/* header styles */
-.header {
-  padding-bottom: 2rem;
-  text-align: center;
-}
-
-/* task list styles */
-.tasks {
-  list-style: none;
-}
-.tasks-item {
-  display: flex;
-}
-
-.tasks-item::before {
-  content: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='1' y='1' width='14' height='16' fill='%231ea9ff' /%3E%3C/svg%3E");
-  width: 0.75em;
-  margin-right: 0.25em;
-}
-
-/* priority task styles */
-.tasks-item-priority {
-  font-weight: bold;
-}
-.tasks-item-priority::before {
-  content: url("data:image/svg+xml,%3Csvg class='icon icon-start' version='1.1' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg' %3E%3Ccircle cx='8' cy='8' r='8' fill='%23ff1e1e' /%3E%3C/svg%3E");
-}
 
 
 .team-card {
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  grid-auto-columns: auto;
+}
+
+.employeeCard{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-auto-columns: auto;
+  color:rgb(180, 255, 175);
+  text-shadow: 0 0 3px #3d0050, 0 0 5px #00a6ff;
+  background-color: rgba(0, 0, 0, 0.284);
+}
+
+.team-card div {
+  display: block;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-card {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 135rem;
+  justify-content: center;
+  padding: 1rem;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  background-color: rgba(0, 0, 0, 0.284);
+}
+
+.first-card div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding-left: 39.775rem;
+}
+
+.first-card div p {
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
