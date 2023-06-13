@@ -4,7 +4,7 @@ Team Profile Generator <br>
 ## Description
 This app is a CLI or Command Line Interface. <br>
 The way I use it in this app is to collect employee data and generate an HTML page displaying the collected data. <br>
-If you wnat to use it follow these steps. <br>
+If you want to use it follow these steps. <br>
  - clone the repo onto your machine.
  - open the application in an IDE like VS code. 
  - open the command line on the root directory
